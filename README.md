@@ -4,7 +4,8 @@
 “Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.”
 
 # Git教程
-Git非常强大，命令也不少，但Git提供了清晰明了的[参考手册](https://git-scm.com/docs),Git归根结底只是一个工具，所以学习使用Git建议按照“二八定律”.
+Git非常强大，命令也不少，但Git提供了清晰明了的[参考手册](https://git-scm.com/docs),Git归根结底只是一个工具，所以学习使用Git建议按照“二八定律”。
+
 *二八定律是19世纪末20世纪初意大利经济学家帕累托发现的。他认为，在任何一组东西中，最重要的只占其中一小部分，约20%，其余80%尽管是多数，却是次要的，因此又称二八定律.*
 
 # Let's Do it
@@ -33,9 +34,9 @@ mkdir pic
 touch README.md
 
 ```
-*`pic`目录存放截图文件，` README.md `文件的内容会自动显示在仓库的首页当中。因此，一般会在这个文件中标明本仓库所包含的软件的概要、使用流程、许可协议等信息，建议使用Markdown语法进行描述，还可以添加标记，提高可读性.*
+*`pic`目录存放截图文件，` README.md `文件的内容会自动显示在仓库的首页当中。因此，一般会在这个文件中标明本仓库所包含的软件的概要、使用流程、许可协议等信息，建议使用Markdown语法进行描述，还可以添加标记，提高可读性。*
 * 编辑` README.md `文件：
-向` README.md `文件添加仓库说明，关于为什么要添加` README.md `以及怎么编写这个文件，请参阅[如何为开发项目编写规范的README文件](https://www.cnblogs.com/wj-1314/p/8547763.html).
+向` README.md `文件添加仓库说明，关于为什么要添加` README.md `以及怎么编写这个文件，请参阅[如何为开发项目编写规范的README文件](https://www.cnblogs.com/wj-1314/p/8547763.html)。
 
 可以使用` git status `命令查看当前工作树的状态，由于文件夹` pic `和文件` README.md `还没有添加到Git仓库，所以这里显示为**Untracked files**。
 
